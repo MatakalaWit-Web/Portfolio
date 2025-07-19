@@ -5,6 +5,7 @@ import javascript from './javascript.png';
 import nodes from './nodejs.png';
 import project1 from './project1.png';
 import reactjs from './reactjs.png';
+import gradient from './gradient.png';
 
 
 export {
@@ -14,5 +15,6 @@ export {
   css,
   javascript,
   nodes,
-  project1
+  project1,
+  gradient
 }

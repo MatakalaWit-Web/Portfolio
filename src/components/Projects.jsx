@@ -1,11 +1,11 @@
 import {nodes, reactjs, html, javascript, css} from '../assets';
 
 const Projects = () => (
-  <section >
+  <section  className='bg-[#161616] t'>
     <div >
-      <h2 className='text-gray-400 font-semibold text-center mt-5'>Experience With</h2>
+      <h2 className='text-gray-400 font-semibold text-center p-5'>Experience With</h2>
     </div>
-    <div className='flex justify-center mt-10'>
+    <div className='flex justify-center mt-10 pb-5'>
       <div className='flex flex-col items-center '>
         <img src={nodes} alt="Node.js" className='w-7 h-7' />
         <p className='text-gray-400'>Node.js</p>

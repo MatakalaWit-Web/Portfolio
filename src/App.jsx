@@ -1,7 +1,7 @@
 import {AboutMe, Experience, Footer, Navbar, Projects} from './components'
 
 const App = () => (
-  <main className="bg-[#161616]">
+  <main >
     
       <Navbar />
       <AboutMe />
