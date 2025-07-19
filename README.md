@@ -1,12 +1,75 @@
-# React + Vite
+# MatakalaW-Port
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+MatakalaW-Port is a personal portfolio web application built with [React](https://reactjs.org/) and deployed on Azure. It showcases projects, skills, and contact information.
 
-Currently, two official plugins are available:
+## Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn
+- Azure account (for deployment)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/MatakalaW-Port.git
+   cd MatakalaW-Port
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run locally**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+
+## Deployment
+
+This project is designed for deployment to Azure App Service or Azure Static Web Apps.
+
+- See [Deploy a React app to Azure](https://learn.microsoft.com/en-us/azure/devops/project/wiki/about-readme-wiki?view=azure-devops&wt.mc_id=knowledgesearch_inproduct_4d606d11-0ba8-4a07-8d45-cbaf4112b155#add-project-readme-files) for step-by-step instructions.
+
+## Project Structure
+
+```
+src/
+  components/
+    AboutMe.jsx
+    ...
+  index.css
+  App.js
+  ...
+public/
+  index.html
+README.md
+```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For questions or feedback, contact [matakalanew@example.com](mailto:your-email@example.com).
+
+---
+
+For more guidance, see [Create a README for your repo](https://learn.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops&wt.mc_id=knowledgesearch_inproduct_4d606d11-0ba8-4a07-8d45-cbaf4112b155).
